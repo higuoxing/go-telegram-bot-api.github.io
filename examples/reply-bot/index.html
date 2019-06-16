@@ -39,7 +39,7 @@
 		<span style=color:#a6e22e>msg</span>.<span style=color:#a6e22e>ReplyToMessageID</span> = <span style=color:#a6e22e>update</span>.<span style=color:#a6e22e>Message</span>.<span style=color:#a6e22e>MessageID</span>
 
 		<span style=color:#66d9ef>if</span> <span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>err</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>bot</span>.<span style=color:#a6e22e>Send</span>(<span style=color:#a6e22e>msg</span>); <span style=color:#a6e22e>err</span> <span style=color:#f92672>!=</span> <span style=color:#66d9ef>nil</span> {
-			<span style=color:#a6e22e>og</span>.<span style=color:#a6e22e>Panic</span>(<span style=color:#a6e22e>err</span>)
+			<span style=color:#a6e22e>log</span>.<span style=color:#a6e22e>Panic</span>(<span style=color:#a6e22e>err</span>)
 		}
 	}
 }</code></pre></div><div class=chevrons><div id=navigation><a class="nav nav-prev" href=/examples/ title=Examples><i class="fa fa-chevron-left"></i><label>Examples</label></a>
